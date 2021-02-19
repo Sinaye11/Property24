@@ -1,0 +1,17 @@
+.carousel .slide img{
+    height: 450px;
+}
+
+.carousel .thumbs-wrapper{
+    margin: 0px;
+    padding: 10px 0;
+    background-color: #28293e;
+}
+.thumbs-wrapper ul{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+.carousel .thumb.selected, .carousel .thumb:hover{
+    border: 3px solid #16a4de;
+}
